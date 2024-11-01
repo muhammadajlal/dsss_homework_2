@@ -61,5 +61,9 @@ def math_quiz():
     # Displaying the final score to the user
     print(f"\nGame over! Your score is: {score}/{total_questions}")
 
-if __name__ == "__main__":
+# Definig the main function to give setup.py file an entry point to run the game
+def main():
     math_quiz()
+
+if __name__ == "__main__":
+    main()
