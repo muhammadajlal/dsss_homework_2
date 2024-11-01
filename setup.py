@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="math_quiz",  # Name of the package
-    version="0.1",
+    version="",
     description="A math quiz game",
     author="Muhammad Ajlal",
     author_email="ajlalruddy@gmail.com",
